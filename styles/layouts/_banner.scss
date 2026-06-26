@@ -1,0 +1,39 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.banner {
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $colorMain;
+    background-position-y: 50%;
+    box-sizing: border-box;
+
+    @include mobile {
+        padding: 30px 0;
+
+        .banner__title {
+            font-size: 18px;
+        }
+
+        .banner__text {
+            font-size: 16px;
+        }
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    &__text {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 25px;
+        opacity: 0.7;
+    }
+}

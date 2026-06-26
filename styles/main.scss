@@ -1,0 +1,18 @@
+// 1. Base (Variables, Mixins y Reglas Globales)
+@import "base/base";
+@import "base/functions";
+@import "base/mixins";
+@import "base/variables";
+
+// 2. Componentes (Elementos pequeños)
+@import "components/buttons";
+@import "components/inputs";
+@import "components/cart";
+@import "components/sidebar";
+@import "components/toast";
+
+// 3. Layouts (Estructura de la página)
+@import "layouts/header";
+@import "layouts/products";
+@import "layouts/footer";
+@import "layouts/banner";

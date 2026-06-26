@@ -1,0 +1,12 @@
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+}
+
+@mixin tablets {
+    @media screen and (max-width: 52em) and (min-width: 30em) { @content };
+}
+
+@mixin mobile {
+    @media screen and (max-width: 30em) { @content };
+}

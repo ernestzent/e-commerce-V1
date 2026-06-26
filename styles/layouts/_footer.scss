@@ -1,0 +1,57 @@
+@import "../base/variables";
+@import "../base/mixins";
+
+.footer {
+    @include flex-center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 20px 50px;
+    background-color: $mainBG;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+    &__icon {
+        width: 80px;
+        cursor: pointer;
+
+        .footer__logo {
+            width: 100%;
+        }
+    }
+
+    &__social--container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+        .footer__title {
+            font-size: 25px;
+            font-weight: 600;
+            color: $colorMain;
+        }
+
+        .footer__socialIcon--container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            gap: 10px;
+        }
+
+        .footer__socialIcon {
+            width: 50px;
+            cursor: pointer;
+
+            .footer__socialImg {
+                width: 100%;
+            }
+        }
+    }
+}

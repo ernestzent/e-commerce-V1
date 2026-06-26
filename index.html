@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="js/function.js" defer></script>
+    <title>Tienda Luna K-Beauty</title>
+</head>
+<body>
+    <header class="header">
+        <i class="header__icon"><img class="header__img" src="img/menu.png" alt="Icono Menu"></i>
+        <img class="header__logo" src="img/Logo_png.png" alt="Logo Luna K-Beauty">
+
+        <div class="header__cart">
+            <i class="header__icon"><img class="header__img" src="img/cart.png" alt="Icono Carrito"></i>
+            <span class="header__badge" id="cart-badge">0</span>
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <div class="sidebar__top">
+            <i class="sidebar__icon"><img class="sidebar__img"  src="img/cross.png" alt="Cerrar Menu"></i>
+        </div>
+        <ul class="sidebar__menu">
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Lo Nuevo</a></li>
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Todos Los Productos</a></li>
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Limpieza y Exfoliación</a></li>
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Tónicos y Esencias</a></li>
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Hidratación y Ojos</a></li>
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Promociones</a></li>
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Favoritos</a></li>
+            <li class="sidebar__list"><a class="sidebar__link" href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+         <section class="banner">
+            <h2 class="banner__title">Productos Nuevos</h2>
+            <p class="banner__text">Conoce nuestros productos nuevos</p>
+         </section>
+
+         <section class="product">
+            <article class="product__item">
+                <img class="product__img" src="img/nutritioncream.jpeg" alt="">
+                <h3 class="product__title">Nutrition Cream 100ml</h3>
+                <p class="product__price">$ 760.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+            <article class="product__item">
+                <img class="product__img" src="img/essence_toner.jpeg" alt="">
+                <h3 class="product__title">Essence Toner 100ml</h3>
+                <p class="product__price">$ 350.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+            <article class="product__item">
+                <img class="product__img" src="img/intensiverepaircream.jpeg" alt="">
+                <h3 class="product__title">Intensive Repair Cream 50ml</h3>
+                <p class="product__price">$ 560.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+            <article class="product__item">
+                <img class="product__img" src="img/mist_toner_200.jpeg" alt="">
+                <h3 class="product__title">Mist Toner 200ml</h3>
+                <p class="product__price">$ 420.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+            <article class="product__item">
+                <img class="product__img" src="img/mist_toner_100.jpeg" alt="">
+                <h3 class="product__title">Mist Toner 100ml</h3>
+                <p class="product__price">$ 320.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+            <article class="product__item">
+                <img class="product__img" src="img/concentratedeyecream6.jpeg" alt="">
+                <h3 class="product__title">Concentrated Eye Cream 25ml</h3>
+                <p class="product__price">$ 320.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+            <article class="product__item">
+                <img class="product__img" src="img/blackteaeyepatch.jpeg" alt="">
+                <h3 class="product__title">Black Tea Time Reverse Eye Patch 60ea</h3>
+                <p class="product__price">$ 560.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+            <article class="product__item">
+                <img class="product__img" src="img/blackteaserum.jpeg" alt="">
+                <h3 class="product__title">Black Tea Boosting Serum 45ml</h3>
+                <p class="product__price">$ 980.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+             <article class="product__item">
+                <img class="product__img" src="img/lowphcleansingwater8.jpeg" alt="">
+                <h3 class="product__title">Low pH Cleansing Water 290ml</h3>
+                <p class="product__price">$ 400.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+             <article class="product__item">
+                <img class="product__img" src="img/balm2.jpeg" alt="">
+                <h3 class="product__title">Deep Nourishing Multi Balm 8g</h3>
+                <p class="product__price">$ 480.00</p>
+                <button class="product__button">Agregar al carrito</button>
+            </article>
+
+         <section class="cart">
+            <div class="cart__container--close"><i><img class="cart__close"  src="img/cross.png" alt="Cierra"></i>
+            </div>
+            <h2 class="cart__title">CARRITO</h2>
+            <div class="cart__item">
+            </div>
+         </section>
+    </main>
+    <footer class="footer">
+        <a href="#" class="footer__icon">
+            <img class="footer__logo" src="img/Logo_png.png" alt="Volver al inicio">
+        </a>
+        <div class="footer__social--container">
+            <h2 class="footer__title">Siguenos en nuestras redes sociales</h2>
+            <div class="footer__socialIcon--container">
+                <i class="footer__socialIcon"><img class="footer__socialImg" src="img/facebook.png" alt="Icono Facebook"></i>
+                <i class="footer__socialIcon"><img class="footer__socialImg" src="img/instagram.png" alt="Icono Instagram"></i>
+                <i class="footer__socialIcon"><img class="footer__socialImg" src="img/tik-tok.png" alt="Icono Tik Tok"></i>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="toast__container"></div>
+</body>
+</html>
